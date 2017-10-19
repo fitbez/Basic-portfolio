@@ -1,0 +1,63 @@
+/* Base Styles----------*/
+
+body {
+  margin: 0;
+  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial,sans-serif;
+}
+
+h1 {
+  font-size: 5.625;/* 90px/16px */
+  color:white;
+  background-color:#4aaaa5;
+  width: 250px;
+  font-weight: normal;
+  line-height: 1.3;
+}
+
+header {
+  background-color:#ffffff;
+}
+h2 {
+  color: #4aaaa5;
+}
+
+h3 {
+  color: #4aaaa5;
+}
+
+p {
+  font-size: 20px;
+}
+
+footer {
+  background-color: #666666;
+}
+
+/* pseddo-classes----------*/
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: forestgreen;
+}
+
+a:active {
+  color: lightcoral;
+}
+
+/* ID Selectors------------*/
+
+#primary-content {
+  border: 3px solid #dddddd;
+}
+#main-footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: solid 5px #4aaaa5;
+}
+/* Layout Styles----------*/
