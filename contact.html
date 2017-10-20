@@ -1,36 +1,61 @@
-<DOCTYPE html>
 <html>
-     <head>
-       <title> my portfolio</title>
-     </head>
-  <body>
-    <h1> Fitsum Belayneh</h1>
-    <h3>Contact</h3>
-  <div>
-    <form action="/action_page.php">
-       First name:<br>
-    <input type="text" name="firstname" placeholder="enter your name">
-     <br><br>
-       Email:<br>
-     <input type="text"name="Email"placeholder="enter your email"><br><br>
-        Message:<br>
-     <input type="text"name="message"placeholder="enter message">
-     <br><br>
-    <input type="submit" value="Submit">
-    </form>
-   </div>
-          <h3>Connect with me</h3>
-          <a href="https://www.linkedin.com/feed/">
-          <img src="asset/images/if_linkedin_square_color_107091 (1).png" alt="linkedin logo">
+      <head>
+        <title>about Fitsum</title>
+        <link rel="stylesheet" href="asset/css/style.css">
+      </head>
+    <body>
+      <header id="top"class="main-header">
+          <div class="headdiv">
+            <h1> Fitsum Belayneh </h1>
+          </div>
+
+       <ul>
+
+          <li><a href="contact.html"><p class="text">contact</p></a></li>
+          <li><a href="portfolio.html"><p class="text">portfolio</p></a></li>
+          <li> <a href="index.html"><p class=" text">about</p></a></li>
+      </ul>
+      </header>
+      <div class="entire-content">
+
+        <div class="main-section">
+
+            <h2 class=" cont"> Contact</h2>
+
+
+       <div class= "section-content">
+
+           <form class="form" action="/action_page.php">
+              First name:<br>
+           <input class="name" type="text" name="firstname" placeholder="   enter your name">
+            <br><br>
+              Email:<br>
+            <input class="email" type="text"name="Email"placeholder="   enter your email"><br><br>
+               Message:<br>
+            <input class="message "type="text"name="message"placeholder="   enter message">
+            <br><br>
+           <input class="submit"type="submit" value="Submit">
+           </form>
+       </div>
+      </div>
+      <div class="sidebar">
+          <h3 class="connect">Connect with me</h3>
+          <div class= "links">
+          <a href="https://www.linkedin.com/">
+          <img class="img1" src="asset/images/if_linkedin_square_color_107091 (1).png" alt="linkedin logo">
           </a>
-          <a href="https://github.com/dashboard">
-            <img src="asset/images/if_github_square_black_107109 (2).png" alt="Git hub logo">
+          <a href="https://github.com/">
+            <img class="img2" src="asset/images/if_github_square_black_107109 (2).png" alt="Git hub logo">
           </a>
           <a href="https://stackoverflow.com/">
-              <img src="asset/images/if_overflow_386674 (1).png" alt="Slack over flow logo">
+              <img class="img3" src="asset/images/if_overflow_386674 (1).png" alt="Slack over flow logo">
             </a>
-    <footer>
-        <p>&copy; Copyright 2017 fitsum Belayneh</p>
-    </footer>
+          </div>
+        </div>
+        </div>
+          <footer class="main-footer">
+            <p class="Copyright"> &copy; Copyright 2017 fitsum Belayneh</p>
+          </footer>
+
    </body>
 </html>
